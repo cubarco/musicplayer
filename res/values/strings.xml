@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">啊！菠萝</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">playing</string>
+    <string name="title_section2">playlist</string>
+    <string name="title_section3">songs</string>
+    <string name="title_section4">Artist</string>
+    <string name="title_section5">Album</string>
+    <string name="title_activity_artist">ArtistActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="_100">100</string>
+
+</resources>

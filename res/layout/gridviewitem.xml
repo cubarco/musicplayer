@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp" >
+
+        <ImageView
+            android:id="@+id/image_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_default_small" />
+        <!-- android:src="@drawable/album_default_small" -->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image_small"
+            android:layout_alignLeft="@+id/image_small"
+            android:layout_alignRight="@+id/image_small"
+            android:scaleType="fitXY"
+            android:src="@drawable/appwidget_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/image_small"
+            android:layout_alignTop="@+id/imageView1"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/image_small"
+            android:layout_below="@id/textView1"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#999999"
+            tools:ignore="HardcodedText" />
+        <!--
+             <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/image_small"
+            android:layout_alignLeft="@id/image_small"
+            android:layout_alignRight="@id/image_small"
+            android:layout_alignTop="@id/image_small"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:background="@drawable/grid_item_bg" />
+        -->
+
+        <ImageView
+            android:id="@+id/imageView_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image_small"
+            android:layout_alignLeft="@id/image_small"
+            android:layout_alignRight="@id/image_small"
+            android:layout_alignTop="@id/image_small"
+            android:background="@drawable/grid_item_bg"
+            android:padding="0dp" />
+    </RelativeLayout>
+
+</LinearLayout>
