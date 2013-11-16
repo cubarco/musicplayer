@@ -1,11 +1,8 @@
 package com.dianwork.mymusicplayer.musicpayerservice;
 
 import com.dianwork.mymusicplayer.MyMusicApplication;
-import com.dianwork.mymusicplayer.R;
 import com.dianwork.mymusicplayer.activity.ListActivity;
-import com.dianwork.mymusicplayer.api.Song;
 
-import android.R.integer;
 import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;

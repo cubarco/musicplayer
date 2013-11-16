@@ -3,8 +3,6 @@ package com.dianwork.mymusicplayer.activity;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import javax.security.auth.PrivateCredentialPermission;
-
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;

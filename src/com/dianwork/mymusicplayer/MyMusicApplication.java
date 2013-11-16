@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import android.app.Application;
-import android.os.Messenger;
 
 import com.dianwork.mymusicplayer.api.Song;
 import com.dianwork.mymusicplayer.api.Song.Msg;
